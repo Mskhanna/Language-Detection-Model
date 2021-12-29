@@ -78,7 +78,7 @@ from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
 ```
 
-# 5. Model Creation
+# 5. Model Creation:
 I am using the Naive Bayes Algorithm for the model. You can see more about Naive Bayes [here.](https://scikit-learn.org/stable/modules/naive_bayes.html)
 ```python
 from sklearn.naive_bayes import MultinomialNB
@@ -86,7 +86,7 @@ model = MultinomialNB()
 model.fit(x_train, y_train)
 ```
 
-# 6. Making Predictions
+# 6. Making Predictions:
 ```python
 predict("Hi, my name is Manmeet Singh Khanna")
 ```
