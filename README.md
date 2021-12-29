@@ -1,8 +1,7 @@
 # Language-Detection-Model-ML and NLP
-This project **Language Detection Model** is the task of determining the natural language that a document is written in. Recognizing text in a specific language comes naturally to a human reader familiar with the language. A trained linguist may be familiar with many dozens, but most of us will have, at some point, encountered written texts in languages they cannot place. Research into Language identification aims to mimic this human ability to recognize specific languages. It has a wide variety of applications. I am using a [Language dataset](https://www.kaggle.com/basilb2s/language-detection) from Kaggle, which contains text details for **17 different languages**. This dataset is from Kaggle which was created by scraping Wikipedia, so it contains many unwanted symbols, numbers which will affect the quality of our model. This is a solution for many artificial intelligence applications and computational linguists.
+This project **Language Detection Model** is the task of determining the natural language that a document is written in. Recognizing text in a specific language comes naturally to a human reader familiar with the language. A trained linguist may be familiar with many dozens, but most of us will have, at some point, encountered written texts in languages they cannot place. Research into Language identification aims to mimic this human ability to recognize specific languages. It has a wide variety of applications. I am using a [Language dataset](https://www.kaggle.com/basilb2s/language-detection) from Kaggle, which contains text details for **17 different languages**. This dataset was created by scraping Wikipedia, so it contains many unwanted symbols, numbers which will affect the quality of our model. This is a solution for many artificial intelligence applications and computational linguists.
 
 
-![Dirgram](https://lh3.googleusercontent.com/Kul1_bKbt5832ppvMiTUwz1rI8O-NyShY3oGUBcbbwi-7LW8HtqagoMWjPHB3GJ4o8i4qJfL8BdazQIUbMS1gJyZKSeudMeVepSLPMl0f5Fj7upnqan5I1o-rhaVJEaOLiPT8BfAnvLLfJHIAGHdI2mDevK026QlumahgsUuB0vtpYSgeAY4xMGrcqb4CoccfQstD2_sODfuobIqQOpy3-rJXO8wl4eXXsbWPxx-wXoHSxmJ_GZiVEVvHveKdImpHkUmuOHSvlO9WHl065BFxw0l87tfWbzgGA42v3HnQ7nF5F_dtp707yqv35BmFsZE-taS5ixkuGG6NXbUvbb_NTGwz9k3iXQeYvUkzUPKlQ3kQMmGhKXBRNOKIxdZAMxnoeiuLIkqN6L4pA38xghoAStsbv5Oc_VxE7vJsa91zuL7lBoVx8R5QgXXJRXal6OOSKB8vgBQIf05Kyt-ldX6zalR6uE-RfbVyYUeNX2Au9vWTqQrhZHKJDfWLB05JyBafL9z_SNqU5A2Q8Y2Q2u5c-ScxWfRX0JGMFdXforF74qiIG-5ZgLRjEjlY5AoXdl0rMska-rJc29r7hJVbhDJXhDbWZoC7qVHASo0grZk4h_hR5AO950CF9bgEoqn_2uUNEcnVhN1X7q2pIVVkRZMMQYWdjfGAB5rDYHO6j3c3Cp9AR-D62OngGaPmaqG5FHq5M7rUDZLttWnAWYUfz8v-4XH=w976-h540-no?authuser=0/200/200)
 
 ### The languages included in the dataset are given below:
 1) English
@@ -23,10 +22,9 @@ This project **Language Detection Model** is the task of determining the natural
 16) Danish 
 17) Greek
 
+![Dirgram](https://lh3.googleusercontent.com/Kul1_bKbt5832ppvMiTUwz1rI8O-NyShY3oGUBcbbwi-7LW8HtqagoMWjPHB3GJ4o8i4qJfL8BdazQIUbMS1gJyZKSeudMeVepSLPMl0f5Fj7upnqan5I1o-rhaVJEaOLiPT8BfAnvLLfJHIAGHdI2mDevK026QlumahgsUuB0vtpYSgeAY4xMGrcqb4CoccfQstD2_sODfuobIqQOpy3-rJXO8wl4eXXsbWPxx-wXoHSxmJ_GZiVEVvHveKdImpHkUmuOHSvlO9WHl065BFxw0l87tfWbzgGA42v3HnQ7nF5F_dtp707yqv35BmFsZE-taS5ixkuGG6NXbUvbb_NTGwz9k3iXQeYvUkzUPKlQ3kQMmGhKXBRNOKIxdZAMxnoeiuLIkqN6L4pA38xghoAStsbv5Oc_VxE7vJsa91zuL7lBoVx8R5QgXXJRXal6OOSKB8vgBQIf05Kyt-ldX6zalR6uE-RfbVyYUeNX2Au9vWTqQrhZHKJDfWLB05JyBafL9z_SNqU5A2Q8Y2Q2u5c-ScxWfRX0JGMFdXforF74qiIG-5ZgLRjEjlY5AoXdl0rMska-rJc29r7hJVbhDJXhDbWZoC7qVHASo0grZk4h_hR5AO950CF9bgEoqn_2uUNEcnVhN1X7q2pIVVkRZMMQYWdjfGAB5rDYHO6j3c3Cp9AR-D62OngGaPmaqG5FHq5M7rUDZLttWnAWYUfz8v-4XH=w976-h540-no?authuser=0/200/200)
 
-### Technology Stack:
-- Naïve Bayes’ Algorithm
-- NumPy, Matplotlib, Seaborn, Pandas, Scikit-Learn libraries
+
 
 ### Table of Contents :
 ```
